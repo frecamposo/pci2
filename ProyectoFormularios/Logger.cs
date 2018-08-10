@@ -10,7 +10,7 @@ namespace ProyectoFormularios
     static class Logger
     {
         public static void Mensaje(string msg) {
-            msg = DateTime.Now + " | " + msg;
+            msg = DateTime.Now + " |  " + msg;
             File.AppendAllText("d:\\Log.txt", msg + Environment.NewLine);
         }
     }
